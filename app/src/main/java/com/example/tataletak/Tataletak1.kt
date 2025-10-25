@@ -54,5 +54,9 @@ fun TataletakBox(modifier: Modifier){
 fun TataletakColumnRow(modifier: Modifier){
     Column() {
 //        baris 1
+        Row(modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly) {
+
+        }
     }
 }
