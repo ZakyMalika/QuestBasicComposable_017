@@ -81,6 +81,46 @@ fun Tambah(modifier: Modifier){
 
 
         }
+        Spacer(modifier = Modifier.height(height = 40.dp))
+        Row() {
+            Box(
+                modifier = Modifier
+//                .fillMaxWidth()
+                    .height(height = 100.dp)
+                    .width(width = 100.dp)
+                    .background(color = Color.Cyan),
+                contentAlignment = Alignment.Center
+            )
 
+            {
+                Text(text = "Ini Box")
+            }
+            Spacer(modifier = Modifier.width(width = 20.dp))
+            Box(
+                modifier = Modifier
+//                .fillMaxWidth()
+                    .height(height = 100.dp)
+                    .width(width = 100.dp)
+                    .background(color = Color.Cyan),
+                contentAlignment = Alignment.Center
+            )
+
+            {
+                Text(text = "Ini Box")
+            }
+            Spacer(modifier = Modifier.width(width = 20.dp))
+            Box(
+                modifier = Modifier
+//                .fillMaxWidth()
+                    .height(height = 100.dp)
+                    .width(width = 100.dp)
+                    .background(color = Color.Cyan),
+                contentAlignment = Alignment.Center
+            )
+
+            {
+                Text(text = "Ini Box")
+            }
+        }
     }
 }
