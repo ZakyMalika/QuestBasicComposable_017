@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.sync.Mutex
 
 @Composable
 fun TataletakColumn(modifier: Modifier){
@@ -112,6 +113,14 @@ fun TataletakBoxColumnRow(modifier: Modifier){
                     Text(text = "Col1_Row1_Komponen1")
                     Text(text = "Col1_Row1_Komponen2")
                     Text(text = "Col1_Row1_Komponen3")
+                }
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Col1_Row2_Komponen1")
+                    Text(text = "Col1_Row2_Komponen2")
+                    Text(text = "Col1_Row2_Komponen3")
                 }
             }
         }
