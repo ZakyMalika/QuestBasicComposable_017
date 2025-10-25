@@ -19,7 +19,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.sync.Mutex
 
 @Composable
@@ -138,7 +141,15 @@ fun TataletakBoxColumnRow(modifier: Modifier){
             Image(painter = gambar,
                 contentDescription = null,
                 contentScale = ContentScale.Fit)
-            Text()
+            Text(text = "My music",
+                fontSize = 50.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Monospace,
+                modifier = Modifier.align(
+                    alignment = Alignment.Center
+                )
+            )
         }
     }
 }
