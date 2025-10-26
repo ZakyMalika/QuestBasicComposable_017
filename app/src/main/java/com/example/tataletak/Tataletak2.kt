@@ -74,7 +74,7 @@ fun Tambah(modifier: Modifier){
                     .height(height = 100.dp)
                     .width(width = 100.dp)
                     .clip(CircleShape)
-                    .background(color = Color.Cyan),
+                    .background(color = Color.LightGray),
                 contentAlignment = Alignment.Center
             )
 
