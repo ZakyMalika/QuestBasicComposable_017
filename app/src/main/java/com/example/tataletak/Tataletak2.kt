@@ -46,7 +46,7 @@ fun Tambah(modifier: Modifier){
 //                .fillMaxWidth()
                 .height(height = 100.dp)
                 .width(width = 100.dp)
-                .background(color = Color.Cyan),
+                .background(color = Color.Red),
             contentAlignment = Alignment.Center
         )
 
